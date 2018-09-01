@@ -30,7 +30,7 @@ h2 {
 
 section p{
   font-size: 1.25rem;
-  line-height: 1.5rem;
+  line-height: 1.6rem;
   font-weight: 100;
   color: #333333;
   width: 90%;
@@ -48,6 +48,17 @@ a{
   width: 210px;
   text-align: center;
   margin: 10px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav ul li a {
+  border-color: #516a4a;
+  color: #516a4a;
+  font-size: 1.05rem;
 }
 
 section img {
@@ -214,6 +225,18 @@ section {
 
   section p {
     max-width: 650px;
+  }
+
+  #nav-bar {
+    height: 100px;
+  }
+
+  #nav-container {
+    width: 90%;
+    max-width: 1150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
 }
