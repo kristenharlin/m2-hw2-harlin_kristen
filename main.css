@@ -9,14 +9,15 @@
 }
 
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
-    display:block;
+    display: block;
 }
 
 h1{
   font-size: 2.1rem;
   font-weight: 500;
-  line-height: 1.9rem;
+  line-height: 2rem;
   color: #ffffff;
+  margin-bottom: 15px;
 }
 
 h2 {
@@ -24,27 +25,73 @@ h2 {
   text-transform: uppercase;
   font-weight: 400;
   color: #516a4c;
+  margin-bottom: 10px;
 }
 
-p{
-  font-size: .95rem;
-  line-height: 1.3rem;
+section p{
+  font-size: 1.05rem;
+  line-height: 1.4rem;
+  font-weight: 100;
+  color: #333333;
+  width: 90%;
+  padding-bottom: 10px;
 }
 
 a{
   font-size: 1.25rem;
   color: #ff294f;
   text-transform: uppercase;
+  text-decoration: none;
   padding: 15px;
   border: 4px solid #ff294f;
   border-radius: 5px;
+  width: 210px;
+  text-align: center;
+  margin: 10px;
+}
+
+section img {
+  width: 70%;
+  padding: 10px 0 10px 0;
+}
+
+section {
+  padding: 25px 5% 25px 5%;
 }
 
 .gray {
-    background-color: #f5f4f0;
+  background-color: #f5f4f0;
+}
+
+.white-link {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+#contact, #nav-bar, #banner, section, footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 #banner {
-    background-image: url('img/plants-bg.png');
-    background-size: cover;
+  background-image: url('img/plants-bg.png');
+  background-size: cover;
+  padding: 50px 5% 50px 5%;
+  min-height: 370px;
+}
+
+#contact, #nav-bar, footer, #contact p, #footer p {
+  padding: 10px 5% 10px 5%;
+  color: #516a4a;
+}
+
+#contact p {
+  width: 75%;
+}
+
+#desktop-menu {
+  display: none;
 }
