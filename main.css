@@ -13,7 +13,7 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 }
 
 h1{
-  font-size: 2.1rem;
+  font-size: 2.4rem;
   font-weight: 500;
   line-height: 2rem;
   color: #ffffff;
@@ -21,7 +21,7 @@ h1{
 }
 
 h2 {
-  font-size: 1.2rem;
+  font-size: 1.35rem;
   text-transform: uppercase;
   font-weight: 400;
   color: #516a4c;
@@ -29,8 +29,8 @@ h2 {
 }
 
 section p{
-  font-size: 1.05rem;
-  line-height: 1.4rem;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
   font-weight: 100;
   color: #333333;
   width: 90%;
@@ -80,7 +80,7 @@ section {
   background-image: url('img/plants-bg.png');
   background-size: cover;
   padding: 50px 5% 50px 5%;
-  min-height: 370px;
+  min-height: 375px;
 }
 
 #contact, #nav-bar, footer, #contact p, #footer p {
@@ -206,4 +206,14 @@ section {
   .hamburger, .cross, .menu {
     display: none;
   }
+
+  footer, section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  section p {
+    max-width: 650px;
+  }
+
 }
