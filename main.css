@@ -116,6 +116,7 @@ section {
 .cross{
   background:none;
   position:absolute;
+  top:0px;
   right:0;
   padding: 15px;
   color: #516a4a;
@@ -163,6 +164,7 @@ section {
 .menu ul li a {
 	text-decoration: none;
   font-size: 1rem;
+	margin: 0px;
   color:#333333;
   border: none;
 }
