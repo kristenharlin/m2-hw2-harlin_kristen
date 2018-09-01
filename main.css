@@ -99,7 +99,7 @@ section {
   color: #516a4a;
 }
 
-#contact p {
+#contact-container {
   width: 75%;
 }
 
@@ -231,12 +231,24 @@ section {
     height: 100px;
   }
 
-  #nav-container {
+  #nav-container, #contact-container {
     width: 90%;
     max-width: 1150px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+  }
+
+  #nav-container {
+    justify-content: space-between;
+  }
+
+  #contact p {
+    padding: 10px 0% 10px 0%;
+  }
+
+  #contact-container {
+    justify-content: flex-end;
+    text-align: right;
   }
 
 }
