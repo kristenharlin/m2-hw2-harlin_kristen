@@ -186,6 +186,18 @@ section {
 
 /* end mobile nav styles */
 
+@media (min-width: 550px) {
+
+  section p {
+    width: 70%;
+  }
+
+  section img {
+    width: auto;
+    padding: 25px 40px 25px 40px;
+  }
+}
+
 @media (min-width: 700px) {
   #desktop-menu {
     display: block;
