@@ -95,3 +95,101 @@ section {
 #desktop-menu {
   display: none;
 }
+
+/* hamburger menu styling */
+
+.hamburger{
+	background:none;
+	position:absolute;
+	top:0;
+	right:0;
+	line-height:45px;
+	padding: 15px;
+	color: #516a4a;
+	border:0;
+	font-size:1.4em;
+	font-weight:bold;
+	cursor:pointer;
+	outline:none;
+	z-index:10000000000000;
+}
+.cross{
+  background:none;
+  position:absolute;
+  right:0;
+  padding: 15px;
+  color: #516a4a;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.menu{
+	z-index:1000000;
+	font-weight:bold;
+	font-size:0.8rem;
+  width:100%;
+	background: #f5f4f0;
+	position:absolute;
+	text-align:center;
+	letter-spacing: .05em;
+
+}
+
+.menu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	list-style-image: none;
+}
+
+.menu li {
+	font-family: 'Roboto', sans-serif;
+	display: block;
+	padding:15px 0 15px 0;
+	border-bottom:#dddddd 1px solid;
+}
+
+.menu li:hover{
+	display: block;
+	background:#ffffff;
+	padding:15px 0 15px 0;
+	border-bottom:#dddddd 1px solid;
+}
+
+.menu ul li a {
+	text-decoration: none;
+  font-size: 1rem;
+  color:#333333;
+  border: none;
+}
+
+.menu ul li a:hover {
+	color: #fc713a;
+	text-decoration: none;
+}
+
+.menu a{
+	text-decoration:none;
+	color:#333333;
+}
+
+.menu a:hover{
+	text-decoration:none;
+	color: #ff294f;
+}
+
+/* end mobile nav styles */
+
+@media (min-width: 700px) {
+  #desktop-menu {
+    display: block;
+  }
+
+  .hamburger, .cross, .menu {
+    display: none;
+  }
+}
