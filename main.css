@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-
 * {
 	margin: 0;
 	padding: 0;
@@ -196,6 +194,8 @@ section {
 }
 
 /* end mobile nav styles */
+
+/*********************************************** media queries ***************************/
 
 @media (min-width: 550px) {
 
