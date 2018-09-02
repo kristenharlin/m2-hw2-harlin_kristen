@@ -37,7 +37,8 @@ section p{
 
 a{
   font-size: 1.25rem;
-  color: #ff294f;
+  background-color: #ff294f;
+  color: #ffffff;
   text-transform: uppercase;
   text-decoration: none;
   padding: 15px;
@@ -55,6 +56,7 @@ nav ul li {
 
 nav ul li a {
   border-color: #516a4a;
+  background: transparent;
   color: #516a4a;
   font-size: 1.05rem;
 }
@@ -73,7 +75,8 @@ section {
 }
 
 .white-link {
-  color: #ffffff;
+  color: #516a4a;
+  background-color: #ffffff;
   border-color: #ffffff;
 }
 
